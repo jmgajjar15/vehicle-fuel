@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load("vehicle.pkl")
+model = joblib.load("label_encoder_vehicle.pkl")
 
 st.title("🚗 Vehicle Fuel Efficiency Prediction")
 
